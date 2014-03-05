@@ -1,4 +1,6 @@
-# PROJECT_NAME=my_project rails new bar --skip-bundle --skip-test-unit -d postgresql -m ~/Code/.rails/templates/new_app_template.rb
+# rvm use 2.0.0@my_project
+# gem install rails
+# PROJECT_NAME=my_project rails new my_app_name --skip-bundle --skip-test-unit -d postgresql -m ~/Code/.rails/templates/new_app_template.rb
 
 require 'rvm'
 PROJECT_NAME    = ENV['PROJECT_NAME'] || ''
