@@ -71,7 +71,7 @@ gem 'power_enum'
 gem 'pg_power'
 gem 'activerecord-jdbcpostgresql-adapter', platforms: [:jruby]
 # TODO: Fix to replace, not duplicate!:
-gem 'pg', platforms: [:mri_18, :mri_19, :rbx]
+gem 'pg', platforms: [:ruby]
 run %Q{ bundle install }
 git add: '.', commit: %Q{ -m 'Use pg_power and power_enum for advanced schema design; fix platform adapters' }
 
